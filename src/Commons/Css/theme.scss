@@ -1,0 +1,31 @@
+$backgroundColor: #f0f0f0;
+$menuColor: #000000;
+$contentColor: #808080;
+$textColor: #ffffff;
+
+body {
+    color: $textColor;
+    background-color: $backgroundColor;
+}
+
+a {
+    text-decoration: none;
+    color: $textColor;
+}
+
+.themed-background {
+    background-color: $backgroundColor;
+}
+
+.themed-menu {
+    color: $textColor;
+    background-color: $menuColor;
+}
+
+.themed-content {
+    background-color: $contentColor;
+}
+
+.themed-text {
+    color: $textColor;
+}

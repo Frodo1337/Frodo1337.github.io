@@ -1,0 +1,32 @@
+.curriculum-grid {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+.curriculum-grid-title {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.curriculum-title {
+    margin-left: 1%;
+}
+
+.curriculum-personal-data {
+    width: 95%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #6d6d6d;
+    font-size: 1em;
+}
+
+.curriculum-grid-text {
+    
+}
+
+.curriculum-grid-social {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

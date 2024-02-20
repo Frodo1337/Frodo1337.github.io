@@ -1,0 +1,17 @@
+.header-child {
+    text-align: center;
+    font-size: 1.25em;
+    background-color: #f0f0f0;
+}
+
+.underlined-item {
+    width: 85%;
+    border-bottom: 3px solid black;
+    color: #000000;
+    margin: auto;
+}
+
+.underlined-item:hover{
+    border-bottom: 3px solid #FFFFFF;
+    cursor: pointer;
+}
