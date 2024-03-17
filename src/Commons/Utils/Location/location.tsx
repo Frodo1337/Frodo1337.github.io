@@ -1,15 +1,13 @@
 import LanguageEnum from "../../Enums/locationEnum";
-import PortugueseLocation from "../../../Resources/Locations/portuguese.json";
-import EnglishLocation from "../../../Resources/Locations/english.json";
+import TextEnum from "../../Enums/textEnum";
+import MenuText from "../../../Resources/Locations/menu.json";
 
-const loadLocation = (language: LanguageEnum) : any => {
-    switch (language) {
-        case LanguageEnum.Portuguese:
-            return PortugueseLocation;
-        case LanguageEnum.English:
-            return EnglishLocation;
-        default:
-            return PortugueseLocation;
+const loadLocation = (language: LanguageEnum, text: TextEnum) : any => {
+    const languageKey = language == LanguageEnum.Portuguese ? "portuguese" : "english";
+
+    switch (text) {
+        case TextEnum.Menu:
+            return MenuText[languageKey];
     }
 };
 

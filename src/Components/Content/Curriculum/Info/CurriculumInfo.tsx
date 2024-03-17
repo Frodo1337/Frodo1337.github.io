@@ -14,7 +14,7 @@ const CurriculumInfo = () => {
                 Competências
             </h4>
             <h4>
-                Atividades Extracurriculares
+                Atividades
             </h4>
         </div>
     );

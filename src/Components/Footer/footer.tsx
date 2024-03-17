@@ -2,7 +2,7 @@ import Language from "./Language/language";
 import ThemeSelector from "./Theme/themeSelector";
 import "./footer.scss";
 
-const Footer = () => {
+const Footer = (props: { changeLanguage: any }) => {
     return (
         <div className="horizontal-flex-container footer footer-options">
             <div className="vertical-flex-container">
@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="options">
                         <ThemeSelector/>
                         <br/>
-                        <Language/>
+                        <Language changeLanguage={props.changeLanguage}/>
                     </div>
                 </div>
             </div>
