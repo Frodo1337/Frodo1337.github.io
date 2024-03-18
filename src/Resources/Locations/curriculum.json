@@ -1,0 +1,70 @@
+{
+    "portuguese": {
+        "curriculumHeader": {
+            "name": "Matheus Wilhelm Siqueira",
+            "degree": "Cientista da computação"
+        },
+        "curriculumAboutMe": {
+            "title": "Sobre mim",
+            "content": "Tenho 25 anos e sou nascido em Curitiba. Sempre fui apaixonado por computadores e me formei em ciência da computação na PUCPR, costumo buscar entender como tudo funciona e amo desafios, inclusive em áreas da tecnologia que nunca atuei antes. Consigo aprender rápido e muitas vezes por conta própria, então não seria problema me aventurar em algo novo, também gosto de trabalhar em equipe, todos temos algo a ensinar e aprender, acredito que uma boa comunicação é essencial para tudo fluir dentro de um time."
+        },
+        "curriculumGoals": {
+            "title": "Objetivo",
+            "content": "Busco atuar em uma vaga de desenvolvedor backend pleno. Procuro novos desafios que coloquem meu conhecimento em prática e desenvolvam novas habilidades e que aprimorem ainda mais as atuais. Sempre mantendo a profissionalidade, qualidade e manutenibilidade do código desenvolvido."
+        },
+        "curriculumEducation": {
+            "title": "Formação acadêmica",
+            "content": "<b>• Ensino Médio Técnico Em Informática (2013 - 2016)</b><br/> Centro de Educação Profissional Irmão Mario Cristóvão (tecpuc)<br/><b>• Bacharelado em Ciência da Computação (2017 - 2022)</b><br/> Pontifícia Universidade Católica do Paraná<br/><b>• Inglês avançado</b>"
+        },
+        "curriculumWorkExperience": {
+            "title": "Experiência",
+            "content": "<b>• Estagiário em Programação | Vegoor | Fevereiro 2019 - Fevereiro 2020</b><br/> - Responsável por desenvolvimento de automações em python, um sistema web em php/javascript e suporte.<br/><b>• Estagiário em TI | Rentcars | Fevereiro 2020 - Agosto 2020</b><br/> - Responsável por atender chamados de suporte ao usuário e acompanhamento de atividades de devops utilizando serviços da aws.<br/><b> • Analista Desenvolvedor Júnior | Junto Seguros | Fevereiro 2021 - Atualmente</b><br/> - Atuei desenvolvendo microsserviços e APIs REST em C# utilizando o framework .NET, seguindo padrões de desenvolvimento como SOLID e clean code e fazendo uso da arquitetura hexagonal e mensageria do kafka. Sempre mantendo a qualidade do software através de testes unitários e integrados.<br/> - Desenvolvi algumas automações em python como um atualizador de arquivos de configurações e conexões de aplicações e um atualizador de ambientes, onde determinados microsserviços sendo executados em containers são republicados em um ambiente a partir de uma determinada branch do github.<br/> - Também desenvolvi algumas APIs na linguagem javascript fazendo uso do nodejs com o framework nestjs. E desenvolvi algumas tarefas de frontend utilizando react."
+        },
+        "curriculumFreelances": {
+            "title": "Freelances",
+            "content": "• Desenvolvimento de software em javascript para laudo de óleo isolante em transformadores.<br/> • Desenvolvimento de microsserviços utilizando nestjs e .NET para uma contadora.<br/> • Reformulação de um sistema para um laboratório de análises de amostras escrito em php, sendo reescrito em C# e javascript utilizando o framework .NET e uma arquitetura de microsserviços."
+        },
+        "curriculumSkils": {
+            "title": "Competências",
+            "content": "• Conhecimento avançado na linguagem C# utilizando o framework .NET e javascript utilizando nodejs.<br/> • Conhecimento básico em react.<br/> • Conhecimento em arquitetura de microsserviços, SOLID, clean code, docker e pipelines.<br/> • Conhecimento em testes unitários, integrados, metodologia ágil e scrum.<br/> • Trabalho em equipe"
+        },
+        "curriculumExtracurricularActivities": {
+            "title": "Atividades",
+            "content": "• Participei do movimento escoteiro (2015 - 2019), lá aprendi sobre trabalhar em equipe, organização, disciplina, respeito e realizei diversos trabalhos voluntários.<br/> • Possuo habilitação do tipo B.<br/> • Participei da global game jam em 2018 e 2019, desenvolvendo dois jogos utilizando javascript e a engine “rpg maker”."
+        }
+    },
+    "english": {
+        "curriculumHeader": {
+            "name": "Matheus Wilhelm Siqueira",
+            "degree": "Cientista da computação"
+        },
+        "curriculumAboutMe": {
+            "title": "Sobre mim",
+            "content": "Tenho 25 anos e sou nascido em Curitiba. Sempre fui apaixonado por computadores e me formei em ciência da computação na PUCPR, costumo buscar entender como tudo funciona e amo desafios, inclusive em áreas da tecnologia que nunca atuei antes. Consigo aprender rápido e muitas vezes por conta própria, então não seria problema me aventurar em algo novo, também gosto de trabalhar em equipe, todos temos algo a ensinar e aprender, acredito que uma boa comunicação é essencial para tudo fluir dentro de um time."
+        },
+        "curriculumGoals": {
+            "title": "Objetivo",
+            "content": "Busco atuar em uma vaga de desenvolvedor backend pleno. Procuro novos desafios que coloquem meu conhecimento em prática e desenvolvam novas habilidades e que aprimorem ainda mais as atuais. Sempre mantendo a profissionalidade, qualidade e manutenibilidade do código desenvolvido."
+        },
+        "curriculumEducation": {
+            "title": "Formação acadêmica",
+            "content": "<ul><li>Ensino Médio Técnico Em Informática (2013 - 2016)<br/>Centro de Educação Profissional Irmão Mario Cristóvão (tecpuc)</li><li>Bacharelado em Ciência da Computação (2017 - 2022)<br/>Pontifícia Universidade Católica do Paraná</li></ul>"
+        },
+        "curriculumWorkExperience": {
+            "title": "Experiência",
+            "content": "<ul> <li> <bold>Estagiário em Programação | Vegoor | Fevereiro 2019 - Fevereiro 2020</bold> <ul> <li> Responsável por desenvolvimento de automações em python, um sistema web em php/javascript e suporte. </li> </ul> </li> <li> <bold>Estagiário em TI | Rentcars | Fevereiro 2020 - Agosto 2020</bold> <ul> <li> Responsável por desenvolvimento de automações em python, um sistema web em php/javascript e suporte. </li> </ul> </li> <li> <bold>Analista Desenvolvedor Júnior | Junto Seguros | Fevereiro 2021 - Atualmente</bold> <ul> <li> Atuei desenvolvendo microsserviços e APIs REST em C# utilizando o framework .NET, seguindo padrões de desenvolvimento como SOLID e clean code e fazendo uso da arquitetura hexagonal e mensageria do kafka. Sempre mantendo a qualidade do software através de testes unitários e integrados. </li> <li> Desenvolvi algumas automações em python como um atualizador de arquivos de configurações e conexões de aplicações e um atualizador de ambientes, onde determinados microsserviços sendo executados em containers são republicados em um ambiente a partir de uma determinada branch do github. </li> <li> Também desenvolvi algumas APIs na linguagem javascript fazendo uso do nodejs com o framework nestjs. E desenvolvi algumas tarefas de frontend utilizando react. </li> </ul> </li> </ul>"
+        },
+        "curriculumFreelances": {
+            "title": "Freelances",
+            "content": ""
+        },
+        "curriculumSkils": {
+            "title": "Competências",
+            "content": ""
+        },
+        "curriculumExtracurricularActivities": {
+            "title": "Atividades",
+            "content": ""
+        }
+    }
+}

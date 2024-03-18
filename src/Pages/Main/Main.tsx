@@ -13,12 +13,12 @@ const Main = () => {
     return (
         <main>
             <header>
-                <Header language={location} text={TextEnum.Menu}/>
+                <Header language={location} section={TextEnum.Menu}/>
             </header>
             <article>
                 <Routes>
-                    <Route path="/" element={<Curriculum/>}/>
-                    <Route path="curriculum" element={<Curriculum/>}/>
+                    <Route path="/" element={<Curriculum language={location}/>}/>
+                    <Route path="curriculum" element={<Curriculum language={location}/>}/>
                     <Route path="*" element={<div>not found</div>}/>
                 </Routes>
             </article>

@@ -1,14 +1,14 @@
 {
-    "english": {
-        "menu": {
-            "curriculum": "Curriculum",
-            "portfolium": "Portfolium"
-        }
-    },
     "portuguese": {
         "menu": {
             "curriculum": "Currículo",
             "portfolium": "Portfólio"
+        }
+    },
+    "english": {
+        "menu": {
+            "curriculum": "Curriculum",
+            "portfolium": "Portfolium"
         }
     }
 }

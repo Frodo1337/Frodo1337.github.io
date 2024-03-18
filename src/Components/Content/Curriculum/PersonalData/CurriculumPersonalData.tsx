@@ -1,48 +1,24 @@
-import PictureOfMe from "../../../../Resources/Images/Me/me.jpg";
-import "../../../../Commons/Css/container.scss";
-import "./personalData.scss";
+import { useState } from "react";
+import LanguageEnum from "../../../../Commons/Enums/locationEnum";
+import TextEnum from "../../../../Commons/Enums/textEnum";
+import loadLocation from "../../../../Commons/Utils/Location/location";
+const parse = require("html-react-parser").default;
 
-const PersonalData = () => {
+const PersonalData = (props: { language: LanguageEnum, section: TextEnum, display: boolean }) => {
+    const [display, setDisplay] = useState(props.display);
+    const locations = loadLocation(props.language, props.section);
+
     return (
-        <div className="vertical-flex-container">
-            <div className="vertical-flex-child picture-div">
-                <center>
-                    <img src={PictureOfMe} className="picture-of-me"/>
-                </center>
-            </div>
-            <div className="vertical-flex-child personal-data-text-div">
-                <center>
-                    <h4>
-                        Dados Pessoais
-                    </h4>
-                </center>
-                <ul>
-                    <li>
-                        <b>
-                            Nome
-                        </b>
-                    </li>
-                    <li>
-                        Matheus Wilhelm Siqueira
-                    </li>
-                    <li>
-                        <b>
-                            Data de Nascimento
-                        </b>
-                    </li>
-                    <li>
-                        30/08/1998
-                    </li>
-                    <li>
-                        <b>
-                            E-mail
-                        </b>
-                    </li>
-                    <li>
-                        siqueirawm@hotmail.com
-                    </li>
-                </ul>
-            </div>
+        <div>
+            <span>
+                <b>
+                    {parse(locations.title)}
+                </b>
+            </span>
+            <br/>
+            <span>
+                {display ? parse(locations.content) : <span onClick={() => setDisplay(true)}>[{locations.displayText}]</span> }
+            </span>
         </div>
     );
 }

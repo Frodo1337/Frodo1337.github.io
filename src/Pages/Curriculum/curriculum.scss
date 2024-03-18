@@ -22,11 +22,26 @@
     font-size: 1em;
 }
 
-.curriculum-grid-text {
+.curriculum-grid-info {
     
 }
 
 .curriculum-grid-social {
     grid-column-start: 1;
     grid-column-end: 3;
+}
+
+.picture-div {
+    margin-top: 3%;
+}
+
+.picture-of-me {
+    width: 65%;
+    height: 100%;
+    border: 0.2em solid black;
+}
+
+.personal-data-text-div {
+    margin-top: -2%;
+    margin-bottom: -4%;
 }

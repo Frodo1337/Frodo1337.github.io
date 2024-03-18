@@ -1,0 +1,32 @@
+{
+    "portuguese": {
+        "personalDataName": {
+            "title": "Nome",
+            "content": "Matheus Wilhelm Siqueira"
+        },
+        "personalBirthDate": {
+            "title": "Data de Nascimento",
+            "content": "30/08/1998"
+        },
+        "personalDataEmail": {
+            "title": "E-mail",
+            "displayText": "Clique para mostrar",
+            "content": "siqueirawm@hotmail.com"
+        }
+    },
+    "english": {
+        "personalDataName": {
+            "title": "Name",
+            "content": "Matheus Wilhelm Siqueira"
+        },
+        "personalBirthDate": {
+            "title": "Birth Date",
+            "content": "08/30/1998"
+        },
+        "personalDataEmail": {
+            "title": "E-mail",
+            "displayText": "Click to show",
+            "content": "siqueirawm@hotmail.com"
+        }
+    }
+}
