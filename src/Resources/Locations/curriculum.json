@@ -1,9 +1,5 @@
 {
     "portuguese": {
-        "curriculumHeader": {
-            "name": "Matheus Wilhelm Siqueira",
-            "degree": "Cientista da computação"
-        },
         "curriculumAboutMe": {
             "title": "Sobre mim",
             "content": "Tenho 25 anos e sou nascido em Curitiba. Sempre fui apaixonado por computadores e me formei em ciência da computação na PUCPR, costumo buscar entender como tudo funciona e amo desafios, inclusive em áreas da tecnologia que nunca atuei antes. Consigo aprender rápido e muitas vezes por conta própria, então não seria problema me aventurar em algo novo, também gosto de trabalhar em equipe, todos temos algo a ensinar e aprender, acredito que uma boa comunicação é essencial para tudo fluir dentro de um time."
@@ -18,7 +14,7 @@
         },
         "curriculumWorkExperience": {
             "title": "Experiência",
-            "content": "<b>• Estagiário em Programação | Vegoor | Fevereiro 2019 - Fevereiro 2020</b><br/> - Responsável por desenvolvimento de automações em python, um sistema web em php/javascript e suporte.<br/><b>• Estagiário em TI | Rentcars | Fevereiro 2020 - Agosto 2020</b><br/> - Responsável por atender chamados de suporte ao usuário e acompanhamento de atividades de devops utilizando serviços da aws.<br/><b> • Analista Desenvolvedor Júnior | Junto Seguros | Fevereiro 2021 - Atualmente</b><br/> - Atuei desenvolvendo microsserviços e APIs REST em C# utilizando o framework .NET, seguindo padrões de desenvolvimento como SOLID e clean code e fazendo uso da arquitetura hexagonal e mensageria do kafka. Sempre mantendo a qualidade do software através de testes unitários e integrados.<br/> - Desenvolvi algumas automações em python como um atualizador de arquivos de configurações e conexões de aplicações e um atualizador de ambientes, onde determinados microsserviços sendo executados em containers são republicados em um ambiente a partir de uma determinada branch do github.<br/> - Também desenvolvi algumas APIs na linguagem javascript fazendo uso do nodejs com o framework nestjs. E desenvolvi algumas tarefas de frontend utilizando react."
+            "content": "<b>• Estagiário em Programação | Vegoor | Fevereiro 2019 - Fevereiro 2020</b><br/> - Responsável por desenvolvimento de automações em python, um sistema web em php/javascript e suporte.<br/><b>• Estagiário em TI | Rentcars | Fevereiro 2020 - Agosto 2020</b><br/> - Responsável por atender chamados de suporte ao usuário e acompanhamento de atividades de devops utilizando serviços da aws.<br/><b> • Analista Desenvolvedor Júnior | Junto Seguros | Fevereiro 2021 - Atualmente</b><br/> - Atuei desenvolvendo microsserviços e APIs REST em C# utilizando o framework .NET, seguindo padrões de desenvolvimento como SOLID e clean code e fazendo uso da arquitetura hexagonal e mensageria do kafka. Sempre mantendo a qualidade do software através de testes unitários e integrados.<br/> - Desenvolvi algumas automações em python como um atualizador de arquivos de configurações e conexões de aplicações e um atualizador de ambientes, onde determinados microsserviços sendo executados em containers são republicados em um ambiente a partir de uma determinada branch do github.<br/> - Atuei em diversas migrações como atualizações de versões de frameworks e refatoração de integrações com serviços externos novos ou trocados de acordo com a necessidade da empresa.<br/> - Também desenvolvi algumas APIs na linguagem javascript fazendo uso do nodejs com o framework nestjs. E desenvolvi algumas tarefas de frontend utilizando react."
         },
         "curriculumFreelances": {
             "title": "Freelances",
@@ -26,7 +22,7 @@
         },
         "curriculumSkils": {
             "title": "Competências",
-            "content": "• Conhecimento avançado na linguagem C# utilizando o framework .NET e javascript utilizando nodejs.<br/> • Conhecimento básico em react.<br/> • Conhecimento em arquitetura de microsserviços, SOLID, clean code, docker e pipelines.<br/> • Conhecimento em testes unitários, integrados, metodologia ágil e scrum.<br/> • Trabalho em equipe"
+            "content": "• Conhecimento básico em react, docker e pipelines.<br/> • Conhecimento intermediário em banco de dados relacionais e não relacionais e mensageria.<br/> • Conhecimento avançado na linguagem C# utilizando o framework .NET e javascript utilizando nodejs.<br/> • Conhecimento dos padrões de arquitetura de microsserviços e de desenvolvimento SOLID e clean code.<br/> • Conhecimento em testes unitários utilizando xunit e jest e integrados utilizando postman e jasmine.<br/> • Conhecimento da metodologia ágil e scrum. <br/> • Trabalho em equipe e boa comunicação.<br/>"
         },
         "curriculumExtracurricularActivities": {
             "title": "Atividades",
@@ -34,37 +30,33 @@
         }
     },
     "english": {
-        "curriculumHeader": {
-            "name": "Matheus Wilhelm Siqueira",
-            "degree": "Cientista da computação"
-        },
         "curriculumAboutMe": {
-            "title": "Sobre mim",
-            "content": "Tenho 25 anos e sou nascido em Curitiba. Sempre fui apaixonado por computadores e me formei em ciência da computação na PUCPR, costumo buscar entender como tudo funciona e amo desafios, inclusive em áreas da tecnologia que nunca atuei antes. Consigo aprender rápido e muitas vezes por conta própria, então não seria problema me aventurar em algo novo, também gosto de trabalhar em equipe, todos temos algo a ensinar e aprender, acredito que uma boa comunicação é essencial para tudo fluir dentro de um time."
+            "title": "About me",
+            "content": "I'm 25 years old and was born in Curitiba. I've always been passionate about computers and I graduated in computer science from PUCPR. I usually try to understand how everything works and I love challenges, including in areas of technology that I've never acted in before. I can learn quickly and often on my own, so it wouldn't be a problem for me to venture into something new. I enjoy team working, we all have something to teach and learn, I believe that good communication is essential for everything to flow within a team."
         },
         "curriculumGoals": {
-            "title": "Objetivo",
-            "content": "Busco atuar em uma vaga de desenvolvedor backend pleno. Procuro novos desafios que coloquem meu conhecimento em prática e desenvolvam novas habilidades e que aprimorem ainda mais as atuais. Sempre mantendo a profissionalidade, qualidade e manutenibilidade do código desenvolvido."
+            "title": "Goal",
+            "content": "I'm looking for a position as a full backend developer and for new challenges that will put my knowledge into practice and develop new skills and further improve my current ones. Always maintaining the professionalism, quality and maintainability in my code development."
         },
         "curriculumEducation": {
-            "title": "Formação acadêmica",
-            "content": "<ul><li>Ensino Médio Técnico Em Informática (2013 - 2016)<br/>Centro de Educação Profissional Irmão Mario Cristóvão (tecpuc)</li><li>Bacharelado em Ciência da Computação (2017 - 2022)<br/>Pontifícia Universidade Católica do Paraná</li></ul>"
+            "title": "Education",
+            "content": "<b>• Computer Technician High School (2013 - 2016)</b><br/> Irmão Mario Cristóvão Professional Education Center (tecpuc)<br/> <b>• Bachelor of Computer Science (2017 - 2022)</b><br/> Pontifícia Universidade Católica do Paraná<br/><b>•Advanced English</b>"
         },
         "curriculumWorkExperience": {
-            "title": "Experiência",
-            "content": "<ul> <li> <bold>Estagiário em Programação | Vegoor | Fevereiro 2019 - Fevereiro 2020</bold> <ul> <li> Responsável por desenvolvimento de automações em python, um sistema web em php/javascript e suporte. </li> </ul> </li> <li> <bold>Estagiário em TI | Rentcars | Fevereiro 2020 - Agosto 2020</bold> <ul> <li> Responsável por desenvolvimento de automações em python, um sistema web em php/javascript e suporte. </li> </ul> </li> <li> <bold>Analista Desenvolvedor Júnior | Junto Seguros | Fevereiro 2021 - Atualmente</bold> <ul> <li> Atuei desenvolvendo microsserviços e APIs REST em C# utilizando o framework .NET, seguindo padrões de desenvolvimento como SOLID e clean code e fazendo uso da arquitetura hexagonal e mensageria do kafka. Sempre mantendo a qualidade do software através de testes unitários e integrados. </li> <li> Desenvolvi algumas automações em python como um atualizador de arquivos de configurações e conexões de aplicações e um atualizador de ambientes, onde determinados microsserviços sendo executados em containers são republicados em um ambiente a partir de uma determinada branch do github. </li> <li> Também desenvolvi algumas APIs na linguagem javascript fazendo uso do nodejs com o framework nestjs. E desenvolvi algumas tarefas de frontend utilizando react. </li> </ul> </li> </ul>"
+            "title": "Work Experience",
+            "content": "<b>• Programming Intern | Vegoor | February 2019 - February 2020</b><br/> - Responsible for developing python automations, a web system in php/javascript and user supporting.<br/> <b>• IT Intern | Rentcars | February 2020 - August 2020</b><br/> - Responsible for answering user support tickets and keep track of devops activities using aws services.<br/> <b>• Junior Developer Analyst | Junto Seguros | February 2021 - Currently</b><br/> - I worked on development of dotnet and nodejs microservices and REST APIs, following development patters such as SOLID and clean code and making use of hexagonal architecture and kafka messagerie. Always keeping software quality through unit and integrated testing<br/> - I've developed some python automations, such as an updater for appsettings and an environment updater, where certain microservices running in containers are republished in an specific environment from a specific github branch<br/> - I've participated on many migrations such as framework versions upgrades and completely changing or refactoring integrations with external services according to company needs. - I've also developed some javascript APIs using nodejs with the nestjs framework. And I've developed some frontend tasks using react."
         },
         "curriculumFreelances": {
             "title": "Freelances",
-            "content": ""
+            "content": "• Development of javascript software for transformer insulating oil reports.<br/> • Development of microservices using .NET framework and nestjs for an accountant company.<br/> • Reformulation of a system for sample analysis laboratory written in php, being rewritten in C# and javascript using .NET framework and microservice architecture."
         },
         "curriculumSkils": {
-            "title": "Competências",
-            "content": ""
+            "title": "Skills",
+            "content": "• Basic knowledge of react, docker and pipelines<br/> • Intermediate knowledge of relational and non-relational databases and messaging.<br/> • Advanced knowledge of the C# language using the .NET framework and javascript using nodejs.<br/> • Knowledge of microservices architecture standards and SOLID and clean code development.<br/> • Knowledge of unit testing using xunit and jest and integrated testing using postman and jasmine.<br/> • Knowledge of agile and scrum methodology. <br/> • Team work and communication skills.<br/>"
         },
         "curriculumExtracurricularActivities": {
-            "title": "Atividades",
-            "content": ""
+            "title": "Extracurricular Activities",
+            "content": "• I took part in the scout movement (2015 - 2019), where I learned about teamwork, organization, discipline, respect and did a lot of volunteer work.<br/> • I have a type B drivers license.<br/> • I took part in the global game jam in 2018 and 2019, developing two games using javascript and the “rpg maker” game engine."
         }
     }
 }

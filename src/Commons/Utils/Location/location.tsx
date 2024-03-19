@@ -16,8 +16,6 @@ const loadLocation = (language: LanguageEnum, section: TextEnum) : any => {
             return PersonalData[languageKey].personalBirthDate;
         case TextEnum.PersonalDataEmail:
             return PersonalData[languageKey].personalDataEmail;
-        case TextEnum.CurriculumHeader:
-            return Curriculum[languageKey].curriculumHeader;
         case TextEnum.CurriculumAboutMe:
             return Curriculum[languageKey].curriculumAboutMe;
         case TextEnum.CurriculumGoals:
@@ -28,6 +26,10 @@ const loadLocation = (language: LanguageEnum, section: TextEnum) : any => {
             return Curriculum[languageKey].curriculumWorkExperience;
         case TextEnum.CurriculumFreelances:
             return Curriculum[languageKey].curriculumFreelances;
+        case TextEnum.CurriculumSkils:
+            return Curriculum[languageKey].curriculumSkils;
+        case TextEnum.CurriculumExtracurricularActivities:
+            return Curriculum[languageKey].curriculumExtracurricularActivities;
         default:
             return { "title": "not found", "content": "not found" };
     }

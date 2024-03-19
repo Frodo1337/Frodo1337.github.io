@@ -2,9 +2,23 @@
     flex-direction: row-reverse;
 }
 
-.options {
+.footer-item {
     width: 25%;
+}
+
+.footer-item-options {
     margin-left: 73%;
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+.footer-item-social {
+    margin-left: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.curriculum-grid-social {
+    grid-column-start: 1;
+    grid-column-end: 3;
 }

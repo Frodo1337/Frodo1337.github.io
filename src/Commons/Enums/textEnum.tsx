@@ -3,7 +3,6 @@ enum TextEnum {
     PersonalDataName,
     PersonalDataBirthDate,
     PersonalDataEmail,
-    CurriculumHeader,
     CurriculumAboutMe,
     CurriculumGoals,
     CurriculumEducation,

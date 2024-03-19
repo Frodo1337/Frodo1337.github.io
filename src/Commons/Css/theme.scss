@@ -1,16 +1,26 @@
-$backgroundColor: #f0f0f0;
+$backgroundColor: #1B2430;
 $menuColor: #000000;
-$contentColor: #808080;
+$contentColor: #212830;
+$titleColor: #b375c7;
 $textColor: #ffffff;
+$subTitleColor: #b98bc7;
 
 body {
     color: $textColor;
-    background-color: $backgroundColor;
+    background-color: $backgroundColor !important;
 }
 
 a {
     text-decoration: none;
     color: $textColor;
+}
+
+b {
+    color: $subTitleColor;
+}
+
+h3 {
+    color: $titleColor;
 }
 
 .themed-background {

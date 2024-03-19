@@ -13,7 +13,7 @@ const Main = () => {
     return (
         <main>
             <header>
-                <Header language={location} section={TextEnum.Menu}/>
+                {false ?? <Header language={location} section={TextEnum.Menu}/>}
             </header>
             <article>
                 <Routes>

@@ -12,15 +12,29 @@ main {
 
 header {
     grid-area: "header";
-    width: 60vw;
+    width: 80vw;
 }
 
 article {
     grid-area: "content";
-    width: 60vw;
+    width: 80vw;
 }
 
 footer {
     grid-area: "footer";
-    width: 60vw;
+    width: 80vw;
+}
+
+@media(max-width: 800px) {
+    header {
+        width: 90vw;
+    }
+    
+    article {
+        width: 90vw;
+    }
+    
+    footer {
+        width: 90vw;
+    }
 }
